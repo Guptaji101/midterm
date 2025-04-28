@@ -1,0 +1,126 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-color: #f0f8ff52; /* light blue background */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #00bfff; /* deep sky blue */
+    padding: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* gold on hover */
+}
+
+/* Hero Section */
+#hero {
+    padding: 40px 0;
+}
+
+#hero img {
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Sections */
+section {
+    margin: 40px 0;
+    padding: 20px;
+}
+
+section img {
+    margin-top: 20px;
+}
+
+/* Section Headings Styling */
+section h2 {
+    color: #c7e51e; /* bright orange color */
+}
+
+/* Skills Table */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+table, th, td {
+    border: 2px solid #00bfff;
+}
+
+th, td {
+    padding: 12px;
+    font-size: 16px;
+}
+
+/* Project Images */
+#projects img {
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+/* Contact Section */
+#contact ul {
+    list-style-type: none;
+}
+
+#contact ul li {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 15px;
+    background-color: #00bfff;
+    color: white;
+}
+
+/* Button Styles */
+a[href="#contact"] {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00bfff;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+a[href="#contact"]:hover {
+    background-color: #1e90ff; /* dodger blue on hover */
+}
